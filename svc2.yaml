@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: svc2
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: app2
   ports:
